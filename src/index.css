@@ -23,10 +23,16 @@
     margin: 0 auto;
 }
 
+button {
+    cursor: pointer;
+}
+
 .active {
     color: #fff !important;
     border-top: 3px solid #ffa155;
 }
+
+/* Home page start */
 
 .home-page {
     width: 100%;
@@ -112,4 +118,225 @@
     font-size: 14px;
     opacity: 60%;
     line-height: 20px;
+}
+
+/* Home page end */
+
+/* Service page start */
+
+.service-page {
+    width: 100%;
+    height: 574px;
+    background-color: #ffe6d2;
+}
+
+.service-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 96px;
+}
+
+.service-right {
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.service-right h2 {
+    font-family: poppins-b;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #232536;
+}
+
+.service-left {
+    width: 622px;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-left h3 {
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #232536;
+}
+
+.service-left h1 {
+    font-family: poppins-b;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 58px;
+    color: #232536;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.service-left p {
+    font-family: poppins-r;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+}
+
+.service-left button {
+    width: 231px;
+    height: 64px;
+    border: none;
+    color: white;
+    font-family: poppins-r;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #444cfc;
+    margin-top: 40px;
+}
+
+/* Service page end */
+
+/* Company page start */
+
+.company {
+    width: 100%;
+    height: 848px;
+    margin-top: 96px;
+    position: relative;
+    padding-top: 52px;
+}
+
+.com-shapeS {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.com-shapeB {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.com-shapeL {
+    position: absolute;
+    top: -155px;
+    right: 150px;
+    rotate: -90deg;
+}
+
+.company-hero-top {
+    width: 664px;
+}
+
+.company-hero-top h3 {
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #232536;
+}
+
+.company-hero-top h1 {
+    font-family: poppins-b;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 58px;
+    color: #232536;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.company-hero-top p {
+    font-family: poppins-r;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+}
+
+.company-hero-content {
+    position: relative;
+    height: 470px;
+    margin-top: 40px;
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Company page end */
+
+/* Career page start */
+
+.career-hero {
+    width: 100%;
+    height: 697px;
+    margin-top: 96px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.career-shapeB {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.career-hero-top {
+    width: 624px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.career-hero-top h3 {
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #232536;
+}
+
+.career-hero-top h1 {
+    font-family: poppins-b;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 58px;
+    color: #232536;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.career-hero-top p {
+    font-family: poppins-r;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+}
+
+.career-hero-img {
+    width: 1100px;
+    height: 195px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.career-hero h2 {
+    margin-top: 80px;
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #232536;
 }
