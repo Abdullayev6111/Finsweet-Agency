@@ -340,3 +340,292 @@ button {
     line-height: 28px;
     color: #232536;
 }
+
+/* Career page end */
+
+/* Blog page start */
+
+.blog-hero {
+    width: 100%;
+    height: 918px;
+    position: relative;
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-shapeS {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.blog-shapeB {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.blog-hero-right {
+    width: 515px;
+    height: 738px;
+    padding: 72px 74px;
+    background-color: #ffdfc6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog-hero-card {
+    width: 366px;
+    height: 166px;
+}
+
+.blog-hero-card h1 {
+    font-family: poppins-b;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #232536;
+    margin-bottom: 16px;
+}
+
+.blog-hero-card h2 {
+    font-family: poppins-r;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+    opacity: 87%;
+}
+
+.blog-hero-card h3 {
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #232536;
+    opacity: 60%;
+}
+
+.blog-hero-card img {
+    width: 32px;
+    height: 32px;
+}
+
+.blog-hero-left {
+    width: 624px;
+    padding-top: 45px;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-hero-left h3 {
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #232536;
+}
+
+.blog-hero-left h1 {
+    font-family: poppins-b;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 58px;
+    color: #232536;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.blog-hero-left p {
+    font-family: poppins-r;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+}
+
+.blog-hero-left button {
+    width: 122px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    color: #444cfc;
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 87%;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.blog-shapeL {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 391px;
+    rotate: 180deg;
+}
+
+/* Blog page end */
+
+/* Contact page start */
+
+.contact-hero {
+    width: 100%;
+    height: 816px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+}
+
+.contact-hero-right {
+    width: 512px;
+    height: 645px;
+    background-color: #666dff;
+    padding-left: 96px;
+    padding-top: 83px;
+    position: relative;
+}
+
+.contact-shapeL {
+    position: absolute;
+    bottom: 0;
+    left: -24px;
+}
+
+.contact-shapeS {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact-hero-left {
+    width: 672px;
+    padding-top: 48px;
+    position: relative;
+}
+
+.contact-hero-left h3 {
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #232536;
+}
+
+.contact-hero-left h1 {
+    font-family: poppins-b;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 58px;
+    color: #232536;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.contact-hero-left p {
+    font-family: poppins-r;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+}
+
+.contact-form {
+    width: 405px;
+    height: 496px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    gap: 10px;
+}
+
+.contact-form label {
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #232536;
+    opacity: 60%;
+}
+
+.contact-form input {
+    outline: none;
+    border: none;
+    padding: 8px 0;
+    font-family: poppins-r;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+    border-bottom: 1px solid #232536;
+}
+
+.contact-form textarea {
+    outline: none;
+    border: none;
+    height: 80px;
+    padding: 6px 0;
+    font-family: poppins-r;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+    border-bottom: 1px solid #232536;
+}
+
+.contact-form button {
+    width: 213px;
+    height: 64px;
+    background-color: #444cfc;
+    color: white;
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    margin-top: 16px;
+}
+
+.contact-hero-card {
+    width: 268px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-hero-card h5 {
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    padding-bottom: 12px;
+    opacity: 60%;
+    border-bottom: 1px solid #00000014;
+}
+
+.contact-hero-card h2 {
+    font-family: poppins-m;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    font-weight: 500;
+}
+
+.contact-hero-card p {
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    opacity: 60%;
+}
