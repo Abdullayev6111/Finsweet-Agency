@@ -9,13 +9,24 @@ import linkedin from "../../assets/images/linkedin.svg";
 import twitter from "../../assets/images/twitter.svg";
 import fcShape1 from "../../assets/images/fc-shape1.svg";
 import fcShape2 from "../../assets/images/fc-shape2.svg";
+import Modal from "../Modal.jsx";
+import { useEffect, useState } from "react";
 import styles from "./Footer.module.css";
 
 function Footer() {
     const location = useLocation();
+    const [opened, setOpened] = useState(false);
     const noNewsletter = ["/team", "/contact", "/privacypolicy"];
     const hideBlueBlock = noNewsletter.includes(location.pathname);
-
+    useEffect(() => {
+        if (opened) {
+            document.body.style.height = "100vh";
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.height = "auto";
+            document.body.style.overflow = "auto";
+        }
+    }, [opened]);
     return (
         <footer className={styles.footerSection}>
             <div className="container">
@@ -123,10 +134,15 @@ function Footer() {
                             </ul>
                         </div>
                         <img src={fcShape2} alt="" />
-                        <button>
+                        <button
+                            onClick={() => {
+                                setOpened(true);
+                            }}
+                        >
                             Contact Us{" "}
                             <i className="fa-solid fa-arrow-right-long"></i>
                         </button>
+                        {opened && <Modal onClose={() => setOpened(false)} />}
                     </div>
                 </div>
             </div>

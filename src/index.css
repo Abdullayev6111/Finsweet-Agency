@@ -32,6 +32,116 @@ button {
     border-top: 3px solid #ffa155;
 }
 
+/* Modal start */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #2d2934a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 714px;
+    height: 720px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 10px #232536;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.close-modal {
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: #2d2934;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.modal h1 {
+    font-family: poppins-b;
+    font-weight: 600;
+    font-size: 36px;
+    color: #232536;
+    margin-bottom: 14px;
+}
+
+.modal p {
+    font-family: poppins-r;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+}
+
+.modal-form {
+    width: 405px;
+    height: 496px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+    gap: 6px;
+}
+
+.modal-form label {
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #232536;
+    opacity: 60%;
+}
+
+.modal-form input {
+    outline: none;
+    border: none;
+    padding: 8px 0;
+    font-family: poppins-r;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+    border-bottom: 1px solid #232536;
+}
+
+.modal-form textarea {
+    outline: none;
+    border: none;
+    height: 40px;
+    padding: 6px 0;
+    font-family: poppins-r;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+    border-bottom: 1px solid #232536;
+}
+
+.modal-form button {
+    width: 213px;
+    height: 64px;
+    margin-bottom: 30px;
+    background-color: #444cfc;
+    color: white;
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    margin-right: 450px;
+}
+
+/* Modal end */
+
 /* Home page start */
 
 .home-page {
